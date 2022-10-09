@@ -50,6 +50,7 @@ a:hover {
 
   max-height: 800px!important;
   min-width: 100%;
+  overflow: hidden;
 }
 h1,
 h2,
