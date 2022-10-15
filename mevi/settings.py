@@ -26,7 +26,7 @@ SECRET_KEY = '%=yg&p7t_3n9&ux#04$4+0re))2rey+kb*2g00jx79760-9gd='
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    
     'mevitechnologieswebsite.herokuapp.com'
 ]
 
