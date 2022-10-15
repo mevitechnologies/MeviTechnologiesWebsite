@@ -77,11 +77,7 @@ WSGI_APPLICATION = 'mevi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mevi',
-        'USER':'postgres',
-        'PASSWORD':'1234',
-        'HOST':'localhost'
+        
     }
 }
 
