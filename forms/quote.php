@@ -38,5 +38,14 @@
   $contact->add_message( $_POST['phone'], 'Phone');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
+  //echo $contact->send();
+
+  if(!$contact->send())
+{
+    $error = "Something went worng. Please try again.";
+}
+else 
+{
+    $result="Thanks\t" .$name. " for contacting us.";
+}
 ?>
